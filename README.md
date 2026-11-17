@@ -4,10 +4,10 @@ Aplicativo de música inspirado em serviços de prática e acompanhamento de aco
 
 ## Visão geral
 
-Este projeto é uma interface de produto para um app de música com:
-- busca por música e artista
-- player de música com sincronização de acordes
-- controle de tom, capo e BPM
+Este projeto é um MVP de interface para um app de música com:
+- busca por música, artista e tom
+- player com visual de acompanhamento de acordes
+- controle de capo, BPM e sessão de prática
 - biblioteca de repertório
 - ações rápidas e descoberta por estilo
 
@@ -15,24 +15,24 @@ Este projeto é uma interface de produto para um app de música com:
 
 - React Native + Expo
 - TypeScript
-- Expo Web para visualizar em navegador
+- Expo Web para visualização em navegador
 
 ## Como rodar
 
 1. Instale as dependências:
    npm install
-2. Inicie o app:
+2. Inicie a aplicação:
    npm run web
-3. Ou em mobile:
+3. Para Android/iOS:
    npm run android
    npm run ios
 
 ## Estrutura principal
 
-- `App.tsx`: interface principal do app
+- `App.tsx`: interface principal
 - `package.json`: dependências e scripts
 - `app.json`: configuração do Expo
 
 ## Objetivo
 
-Demonstrar um MVP visual e funcional de um app estilo Chorda, adaptado para web e mobile.
+Demonstrar um MVP visual e funcional de uma app de música com estética parecida ao Chorda, adaptado para web e mobile.
