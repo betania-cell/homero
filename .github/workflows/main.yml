@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 20
       - run: npm install
-      - run: npx expo export --platform web  /homero
+      - run: npx expo export --platform web
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
