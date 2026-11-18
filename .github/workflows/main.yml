@@ -22,7 +22,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
       - run: npm install
       - run: npx expo export --platform web --base-url /homero
       - uses: actions/configure-pages@v5
